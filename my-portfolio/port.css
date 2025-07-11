@@ -16,10 +16,23 @@ nav{
     font-weight:800;
     font-size: 45px;;
 }
+
+/* Shared items */
+.secondary-bg
+{
+    background-color:#FFF8F3;
+}
+.section-title
+{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
 .text-primary
 {
     color:#FD6E0A;
 }
+/* nav items */
 nav ul{
     display:flex;
     align-items: center;
@@ -50,10 +63,10 @@ nav li a
 }
 .header
 {
-    background-image: url("logo.JPG"),url("second\ logo.JPG");
+    background-image: url("portfolio-resources/images/developer.png"),url("portfolio-resources/images/header_bg.png");
     background-repeat: no-repeat;
     background-position:top left,bottom right;
-    background-size:450px 250px;
+   
 }
 .banner{
     display:flex;
@@ -82,4 +95,32 @@ nav li a
 .banner-profile
 {
     width:580px;
+}
+/* Secrtion item */
+main{
+    width:1140px;
+    margin:0px auto;
+}
+.about
+{
+    border-radius: 10px;
+    padding:130px 150px;
+    text-align: center;
+    margin-top:130px;
+   
+}
+.banner-description
+{
+    font-size: 18px;
+    font-weight: #757575;
+}
+.about-items
+{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description
+{
+    font: 20px;
+    font-weight: bold;
 }
