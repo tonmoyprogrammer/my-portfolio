@@ -51,17 +51,22 @@ height:48px;
 
 /* Second-area */
 
+main{
+       max-width: 1140px;
+       margin:  0px auto;
+}
 .second-section
 {
     display: flex;
     gap:auto;
-    max-width: 1140px;
-    margin:117px auto 0px auto;
+
+    justify-content: space-between;
+    align-items:center;
 }
 .second-section img
 {
-    max-width:403;
-    max-height:328px;
+    width:403px;
+    height:328px;
     border-radius: 48px;
 }
 .main-title
@@ -72,11 +77,50 @@ height:48px;
 .main-para
 {
     font-size: 24px;
-   color:rgba(37,36,50,50%)
+   color:rgba(37,36,50,50%);
+   max-width:517px;
 }
 .main-button
 {
 padding:12px 36px;
 background-color:#4E47FF;
 color:#FFFFFF;
+border-radius:10px;
+}
+/* Main-logo */
+.main-section
+{
+    background-color:rgba(78,71,255,10%);
+    border-radius: 24px;
+    text-align: center;
+    padding:50px 80px;
+    margin-top:116px;
+}
+.section-head
+{
+    font-size: 38px;
+    font-weight: bold;
+
+}
+.logo-part
+{
+    display: flex;
+    justify-content: space-around;
+     align-items: center; 
+  
+}
+.logo-title
+{
+    font-size: 80px;
+    font-weight: bold;
+    color:#4E47FF;
+ margin-bottom: 0px
+}
+.logo-subsittle
+{
+    color:rgba(0,0,0,0.5);
+    font-size: 16px;
+    line-height:1.2;
+    margin-top: 0px;
+     
 }
